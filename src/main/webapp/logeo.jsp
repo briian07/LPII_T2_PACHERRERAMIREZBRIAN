@@ -9,7 +9,7 @@
     <h2 align="center">Ingresar al sistema</h2>
     
 
-    <form method="post" action="ControladorLogueo">
+    <form method="post" action="ControladorUsuario">
         <table border="2" align="center">
             <tr>
                 <td>Usuario</td>
