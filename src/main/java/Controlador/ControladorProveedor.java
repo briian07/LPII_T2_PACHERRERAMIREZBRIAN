@@ -94,8 +94,6 @@ public class ControladorProveedor extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		//doGet(request, response);
         // Recuperar datos del formulario
         String codigo = request.getParameter("codigo");
         String nombre = request.getParameter("nombre");
@@ -132,6 +130,5 @@ public class ControladorProveedor extends HttpServlet {
 
         // Redirigir al menú principal
         request.getRequestDispatcher("/RegistroProvedor.jsp").forward(request, response);
-	}
-
-}
+    } // Fin del método doPost
+} // Fin de la clase
